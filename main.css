@@ -1,52 +1,53 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-@keyframes dash {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  @keyframes dash {
     to {
-        stroke-dashoffset: 0;
-   }
-}
-.tdc-main {
+      stroke-dashoffset: 0;
+    }
+  }
+  .tdc-main {
     height: 100vh;
     width: 100%;
-}
-.tdc-main-left {
+  }
+  .tdc-main-left {
     width: 20%;
     float: left;
     height: 100%;
     color: white;
-    background: rgba(0, 0, 0, .9);
-    box-shadow: 0 0 11px 1px rgba(0, 0, 0, .4);
-}
-.tdc-main-left-wrapper {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.4);
+  }
+  .tdc-main-left-wrapper {
     height: 100%;
-}
-.tdc-main-left-wrapper-info {
+  }
+  .tdc-main-left-wrapper-info {
     display: block;
     padding: 10px;
-}
-.tdc-main-left-wrapper-info .tdc-info-title {
+  }
+  .tdc-main-left-wrapper-info .tdc-info-title {
     font-size: 25px;
     font-weight: bold;
-}
-.tdc-main-left-wrapper-info .tdc-info-description {
+  }
+  .tdc-main-left-wrapper-info .tdc-info-description {
     font-size: 20px;
-}
-.tdc-main-right {
+  }
+  .tdc-main-right {
     position: relative;
     width: 80%;
     float: left;
     height: 100%;
-}
-.tdc-main-right-filter {
+  }
+  .tdc-main-right-filter {
     position: absolute;
     left: 0;
     width: 50%;
     height: 100%;
-}
-.tdc-main-right-filter-item {
+  }
+  .tdc-main-right-filter-item {
     width: 50%;
     display: inline-block;
     padding: 2px;
@@ -60,36 +61,36 @@ body, html {
     transform: scale(1);
     transform-origin: left;
     line-height: calc(100vh / 21);
-}
-.tdc-main-right-filter-item.active {
+  }
+  .tdc-main-right-filter-item.active {
     opacity: 1;
     color: white;
     border-color: transparent;
     transform: scale(1.1);
-}
-.tdc-main-right-filter-item.active.frontal_lobe {
+  }
+  .tdc-main-right-filter-item.active.frontal_lobe {
     background: #00bcd4;
-}
-.tdc-main-right-filter-item.active.temporal_lobe {
+  }
+  .tdc-main-right-filter-item.active.temporal_lobe {
     background: #7e7acf;
-}
-.tdc-main-right-filter-item.active.occipital_lobe {
+  }
+  .tdc-main-right-filter-item.active.occipital_lobe {
     background: #ffc446;
-}
-.tdc-main-right-filter-item.active.cerebellum {
+  }
+  .tdc-main-right-filter-item.active.cerebellum {
     background: #00aa7f;
-}
-.tdc-main-right-filter-item.active.parietal_lobe {
+  }
+  .tdc-main-right-filter-item.active.parietal_lobe {
     background: #e497a4;
-}
-.tdc-main-right-filter-item.active.brain_stem {
+  }
+  .tdc-main-right-filter-item.active.brain_stem {
     background: #b81434;
-}
-.tdc-main-right-demo {
+  }
+  .tdc-main-right-demo {
     width: 100%;
     height: 100%;
-}
-.tdc-main-right-demo-brain {
+  }
+  .tdc-main-right-demo-brain {
     position: relative;
     float: right;
     right: 100px;
@@ -97,262 +98,83 @@ body, html {
     height: 450px;
     top: calc(50% - 450px/2);
     display: block;
-}
-.tdc-main-right-demo-brain:hover svg {
+  }
+  .tdc-main-right-demo-brain:hover svg {
     opacity: 0.5;
-}
-.tdc-main-right-demo-brain .tdc-brain-part {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-part {
     position: absolute;
     cursor: pointer;
-}
-.tdc-main-right-demo-brain .tdc-brain-part svg {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-part svg {
     width: 200px;
     fill: white;
     stroke: black;
     transform: scale(1);
     transition: all 0.5s;
-}
-.tdc-main-right-demo-brain .tdc-brain-part svg path {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-part svg path {
     pointer-events: all;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: dash 2s linear forwards;
-}
-.tdc-main-right-demo-brain .tdc-brain-part:hover svg, .tdc-main-right-demo-brain .tdc-brain-part.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-part:hover svg, .tdc-main-right-demo-brain .tdc-brain-part.active svg {
     transform: scale(1.5);
     opacity: 1;
     stroke: #fff;
-}
-.tdc-main-right-demo-brain .tdc-frontal-lobe {
+  }
+  .tdc-main-right-demo-brain .tdc-frontal-lobe {
     top: 0;
     left: 0;
-}
-.tdc-main-right-demo-brain .tdc-frontal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-frontal-lobe.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-frontal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-frontal-lobe.active svg {
     fill: #00bcd4;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum {
+  }
+  .tdc-main-right-demo-brain .tdc-cerebellum {
     top: 235px;
     left: 215px;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum svg {
+  }
+  .tdc-main-right-demo-brain .tdc-cerebellum svg {
     width: 160px;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum:hover svg, .tdc-main-right-demo-brain .tdc-cerebellum.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-cerebellum:hover svg, .tdc-main-right-demo-brain .tdc-cerebellum.active svg {
     fill: #00aa7f;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe {
+  }
+  .tdc-main-right-demo-brain .tdc-occipital-lobe {
     top: 100px;
     left: 280px;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe svg {
+  }
+  .tdc-main-right-demo-brain .tdc-occipital-lobe svg {
     width: 140px;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe:hover svg, .tdc-main-right-demo-brain .tdc-occipital-lobe.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-occipital-lobe:hover svg, .tdc-main-right-demo-brain .tdc-occipital-lobe.active svg {
     fill: #ffc446;
-}
-.tdc-main-right-demo-brain .tdc-parietal-lobe {
+  }
+  .tdc-main-right-demo-brain .tdc-parietal-lobe {
     top: 0;
     left: 180px;
-}
-.tdc-main-right-demo-brain .tdc-parietal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-parietal-lobe.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-parietal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-parietal-lobe.active svg {
     fill: #e497a4;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe {
+  }
+  .tdc-main-right-demo-brain .tdc-temporal-lobe {
     top: 140px;
     left: 95px;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe svg {
+  }
+  .tdc-main-right-demo-brain .tdc-temporal-lobe svg {
     width: 220px;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-temporal-lobe.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-temporal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-temporal-lobe.active svg {
     fill: #7e7acf;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-stem {
     top: 280px;
     left: 180px;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem svg {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-stem svg {
     width: 140px;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem:hover svg, .tdc-main-right-demo-brain .tdc-brain-stem.active svg {
+  }
+  .tdc-main-right-demo-brain .tdc-brain-stem:hover svg, .tdc-main-right-demo-brain .tdc-brain-stem.active svg {
     fill: #b81434;
-}
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-@keyframes dash {
-    to {
-        stroke-dashoffset: 0;
-   }
-}
-.tdc-main {
-    height: 100vh;
-    width: 100%;
-}
-.tdc-main-left {
-    width: 20%;
-    float: left;
-    height: 100%;
-    color: white;
-    background: rgba(0, 0, 0, .9);
-    box-shadow: 0 0 11px 1px rgba(0, 0, 0, .4);
-}
-.tdc-main-left-wrapper {
-    height: 100%;
-}
-.tdc-main-left-wrapper-info {
-    display: block;
-    padding: 10px;
-}
-.tdc-main-left-wrapper-info .tdc-info-title {
-    font-size: 25px;
-    font-weight: bold;
-}
-.tdc-main-left-wrapper-info .tdc-info-description {
-    font-size: 20px;
-}
-.tdc-main-right {
-    position: relative;
-    width: 80%;
-    float: left;
-    height: 100%;
-}
-.tdc-main-right-filter {
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 100%;
-}
-.tdc-main-right-filter-item {
-    width: 50%;
-    display: inline-block;
-    padding: 2px;
-    height: calc(100vh / 18.5);
-    border: 1px solid grey;
-    border-radius: 0 2px 2px 0;
-    opacity: 0.3;
-    transition: all 0.2s;
-    box-sizing: border-box;
-    text-align: center;
-    transform: scale(1);
-    transform-origin: left;
-    line-height: calc(100vh / 21);
-}
-.tdc-main-right-filter-item.active {
-    opacity: 1;
-    color: white;
-    border-color: transparent;
-    transform: scale(1.1);
-}
-.tdc-main-right-filter-item.active.frontal_lobe {
-    background: #00bcd4;
-}
-.tdc-main-right-filter-item.active.temporal_lobe {
-    background: #7e7acf;
-}
-.tdc-main-right-filter-item.active.occipital_lobe {
-    background: #ffc446;
-}
-.tdc-main-right-filter-item.active.cerebellum {
-    background: #00aa7f;
-}
-.tdc-main-right-filter-item.active.parietal_lobe {
-    background: #e497a4;
-}
-.tdc-main-right-filter-item.active.brain_stem {
-    background: #b81434;
-}
-.tdc-main-right-demo {
-    width: 100%;
-    height: 100%;
-}
-.tdc-main-right-demo-brain {
-    position: relative;
-    float: right;
-    right: 100px;
-    width: 420px;
-    height: 450px;
-    top: calc(50% - 450px/2);
-    display: block;
-}
-.tdc-main-right-demo-brain:hover svg {
-    opacity: 0.5;
-}
-.tdc-main-right-demo-brain .tdc-brain-part {
-    position: absolute;
-    cursor: pointer;
-}
-.tdc-main-right-demo-brain .tdc-brain-part svg {
-    width: 200px;
-    fill: white;
-    stroke: black;
-    transform: scale(1);
-    transition: all 0.5s;
-}
-.tdc-main-right-demo-brain .tdc-brain-part svg path {
-    pointer-events: all;
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 2s linear forwards;
-}
-.tdc-main-right-demo-brain .tdc-brain-part:hover svg, .tdc-main-right-demo-brain .tdc-brain-part.active svg {
-    transform: scale(1.5);
-    opacity: 1;
-    stroke: #fff;
-}
-.tdc-main-right-demo-brain .tdc-frontal-lobe {
-    top: 0;
-    left: 0;
-}
-.tdc-main-right-demo-brain .tdc-frontal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-frontal-lobe.active svg {
-    fill: #00bcd4;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum {
-    top: 235px;
-    left: 215px;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum svg {
-    width: 160px;
-}
-.tdc-main-right-demo-brain .tdc-cerebellum:hover svg, .tdc-main-right-demo-brain .tdc-cerebellum.active svg {
-    fill: #00aa7f;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe {
-    top: 100px;
-    left: 280px;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe svg {
-    width: 140px;
-}
-.tdc-main-right-demo-brain .tdc-occipital-lobe:hover svg, .tdc-main-right-demo-brain .tdc-occipital-lobe.active svg {
-    fill: #ffc446;
-}
-.tdc-main-right-demo-brain .tdc-parietal-lobe {
-    top: 0;
-    left: 180px;
-}
-.tdc-main-right-demo-brain .tdc-parietal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-parietal-lobe.active svg {
-    fill: #e497a4;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe {
-    top: 140px;
-    left: 95px;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe svg {
-    width: 220px;
-}
-.tdc-main-right-demo-brain .tdc-temporal-lobe:hover svg, .tdc-main-right-demo-brain .tdc-temporal-lobe.active svg {
-    fill: #7e7acf;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem {
-    top: 280px;
-    left: 180px;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem svg {
-    width: 140px;
-}
-.tdc-main-right-demo-brain .tdc-brain-stem:hover svg, .tdc-main-right-demo-brain .tdc-brain-stem.active svg {
-    fill: #b81434;
-}
+  }
