@@ -60,7 +60,7 @@ Cortex is Latin for “bark,” and describes the outer gray matter covering of 
 
 The cerebral cortex is divided into two halves, or hemispheres. It is covered with ridges (gyri) and folds (sulci). The two halves join at a large, deep sulcus (the interhemispheric fissure, AKA the medial longitudinal fissure) that runs from the front of the head to the back. The right hemisphere controls the left side of the body, and the left half controls the right side of the body. The two halves communicate with one another through a large, C-shaped structure of white matter and nerve pathways called the corpus callosum. The corpus callosum is in the center of the cerebrum.
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/AndyMagwayer/Brain-function/blob/main/gifbrain.gif)
 
 HI all newcomers,and welcome . I am really happy to see u in my GitHUb page, in this project you can see and get knowledgr from manofuctional website ,which is done for education
 
