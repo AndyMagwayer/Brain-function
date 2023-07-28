@@ -45,7 +45,7 @@ What is the gray matter and white matter?
 Gray and white matter are two different regions of the central nervous system. In the brain, gray matter refers to the darker, outer portion, while white matter describes the lighter, inner section underneath. In the spinal cord, this order is reversed: The white matter is on the outside, and the gray matter sits within.
 Gray matter is primarily composed of neuron somas (the round central cell bodies), and white matter is mostly made of axons (the long stems that connects neurons together) wrapped in myelin (a protective coating). The different composition of neuron parts is why the two appear as separate shades on certain scans.
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/AndyMagwayer/Brain-function/blob/main/br1-original.jpg)
 
 How does the brain work?
 The brain sends and receives chemical and electrical signals throughout the body. Different signals control different processes, and your brain interprets each. Some make you feel tired, for example, while others make you feel pain.
