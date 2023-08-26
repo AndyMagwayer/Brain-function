@@ -36,7 +36,7 @@ Altered creativity and music perception
 Loss of “the big picture” type of thinking
 Decreased control over left-sided body movements
 
-![Brain](//https://github.com/AndyMagwayer/Brain-function/blob/main/br-2.jpg)
+<br>
 
 What is the brain made of?
 Weighing about 3 pounds in the average adult, the brain is about 60% fat. The remaining 40% is a combination of water, protein, carbohydrates and salts. The brain itself is a not a muscle. It contains blood vessels and nerves, including neurons and glial cells.
